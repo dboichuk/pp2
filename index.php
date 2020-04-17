@@ -14,8 +14,12 @@ echo "<p>Step 2:</p><br>";
 $numbers=array(7,9,8,9,8,8,6);
 
 
-
 printArr($numbers);
 
 echo "<p>Step 3:</p><br>";
+
+echo "<p>Step 4:</p><br>";
+
+$largestNum=largest($numbers);
+echo "$largestNum<br>";
 

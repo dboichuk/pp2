@@ -4,3 +4,7 @@ function printArr($array){
         echo "$i <br>";
     }
 }
+
+function largest($array){
+    return max($array);
+}
