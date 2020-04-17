@@ -12,3 +12,8 @@ function largest($array){
 function removeDups($array){
     return array_unique($array);
 }
+
+function distribution($array){
+    return array_count_values($array);
+
+}
