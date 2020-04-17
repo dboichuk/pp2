@@ -23,3 +23,9 @@ echo "<p>Step 4:</p><br>";
 $largestNum=largest($numbers);
 echo "$largestNum<br>";
 
+echo "<p>Step 5:</p><br>";
+$newNums=removeDups($numbers);
+printArr($newNums);
+
+echo "<p>Step 6:</p><br>";
+
