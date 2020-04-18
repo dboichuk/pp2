@@ -31,4 +31,8 @@ echo "<p>Step 6:</p><br>";
 
 $assosArray=distribution($numbers);
 ksort($assosArray);
-var_dump($assosArray);
+echo"[";
+foreach ($assosArray as $k=>$v){
+    echo"$k=>$v, ";
+}
+echo"]";
